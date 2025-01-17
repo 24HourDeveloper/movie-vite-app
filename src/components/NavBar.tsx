@@ -22,7 +22,7 @@ export default function NavBar() {
         >
             <Flex gap={10} alignItems="center">
                 <ColorModeButton color={{ base: '{colors.reactblue}', _dark: 'bg.inverted'}}/>
-                <NavLink to="/movies" text="Home"/>
+                <NavLink to="/" text="Home"/>
                 <NavLink to="/movies" text="Movies"/>
             </Flex>
             <NavLink to="/profile/1" text="Profile"/>

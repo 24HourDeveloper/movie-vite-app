@@ -17,7 +17,7 @@ function MovieCard({ movie }: MovieProps) {
         <Card.Root
             key={movie.id}
             overflow="hidden"
-            w={{ base: '8rem', md: '10rem' }}
+            w={{ base: '8rem', md: '10rem', lg: '12rem' }}
             variant={{ base: 'elevated', md: 'outline' }}
         >
         <Link
